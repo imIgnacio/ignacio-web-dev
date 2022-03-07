@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+hr {
+    width: 85%;
+}
+
+.paragraph {
+    width: 85%;
+    text-align: center;
+}

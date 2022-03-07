@@ -1,8 +1,10 @@
-import Header from '../components/nav/Header';
+import Header from '../components/header/Header';
+import Jumbo from '../components/jumbo/Jumbo';
 
 function Home() {
     return <div>
         <Header/>
+        <Jumbo/>
     </div>
 }
 
