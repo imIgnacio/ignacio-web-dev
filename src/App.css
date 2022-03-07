@@ -1,5 +1,6 @@
 body {
-    background: url('./assets/images/main-bg.jpg');
-    background-size: cover;
+    background: url('./assets/images/main-bg.png');
+    background-size: contain;
     background-position: center;
+    background-repeat: space;
 }
