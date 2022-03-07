@@ -31,12 +31,16 @@ function Card(props) {
             transition: '0.5s',
             boxShadow: shadow,
         },
+        paragraph: {
+            width: '90%',
+            textAlign: 'center',
+        }
     }
 
     return <div style={styles.div}>
         <h3 style={styles.h3}>{props.title}</h3>
-        <div style={styles.figure} onMouseEnter={() => {setSaturate(1); setShadow('')}} onMouseLeave={() => {setSaturate(0); setShadow('inset rgb(255, 255, 255) 10px -10px 0px 6px')}}>
-        </div>
+        <div style={styles.figure} onMouseEnter={() => {setSaturate(1); setShadow('')}} onMouseLeave={() => {setSaturate(0); setShadow('inset rgb(255, 255, 255) 10px -10px 0px 6px')}}></div>
+        <p style={styles.paragraph}>{props.text}</p>
     </div>
 }
 
