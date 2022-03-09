@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap');
+
 body {
-    background: url('./assets/images/main-bg.png');
+    background: url('./assets/images/bg2.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: space;
+    font-family: 'Be Vietnam Pro';
 }
