@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
+}
+
+.semi-title {
+    color: white;
 }
 
 hr {
@@ -12,4 +17,5 @@ hr {
 .paragraph {
     width: 85%;
     text-align: center;
+    color: white;
 }

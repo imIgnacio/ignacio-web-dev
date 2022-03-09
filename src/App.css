@@ -2,8 +2,7 @@
 
 body {
     background: url('./assets/images/bg2.jpg');
-    background-size: contain;
-    background-position: center;
-    background-repeat: space;
+    background-size: cover;
+    background-position: center bottom;
     font-family: 'Be Vietnam Pro';
 }
