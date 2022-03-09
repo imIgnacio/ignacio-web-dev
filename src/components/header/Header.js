@@ -19,8 +19,9 @@ function Header() {
                 <i class="fa fa-bars"></i>
             </a>
             <div className='menu'>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                <a href="#services">Servicio</a>
+                <a href="#about">Sobre Nosotros</a>
+                <a href="#contact">Contacto</a>
             </div>
         </header>
     </div>

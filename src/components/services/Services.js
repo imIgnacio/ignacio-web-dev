@@ -9,12 +9,12 @@ import eCommerce from '../../assets/images/ecommerce.png';
 
 function Services(props) {
 
-    const simpleWeb = 'Página web sencilla, funcional para entregar información a tus clientes y obtener presencia en la red';
-    const appWeb = 'Aplicación web con interactividad, administración comercial, base de datos, servidor entre otros extras';
-    const commerceWeb = 'Plataforma E-Commerce para que puedas vender tus productos. Características como carrito de compra, pago con tarjetas de débito y crédito, filtros, imágenes de productos y más';
+    const simpleWeb = 'Página web sencilla, funcional para entregar información a tus clientes y obtener presencia en la red.';
+    const appWeb = 'Aplicación web con interactividad, administración comercial, base de datos, servidor entre otros extras.';
+    const commerceWeb = 'Plataforma E-Commerce para que puedas vender tus productos. Características como carrito de compra, pago con tarjetas de débito y crédito, filtros, imágenes de productos y más.';
 
     return <div className='services'>
-        <h2>Nuestros Servicios</h2>
+        <h2 id='services'>Nuestros Servicios</h2>
         <Card title='Simple Web' background={simpleWebPhoto} text={simpleWeb}/>
         <Card title='App Web' background={appWebPhoto} text={appWeb}/>
         <Card title='Plataforma E-Commerce' background={eCommerce} text={commerceWeb}/>

@@ -7,7 +7,6 @@ function Card(props) {
 
     const styles = {
         div: {
-            backgroundColor: 'green',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -18,6 +17,7 @@ function Card(props) {
             width: '128px',
             height: 'auto',
             textAlign: 'center',
+            fontSize: '1.25rem',
         },
         figure: {
             width: '220px',
