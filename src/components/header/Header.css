@@ -4,6 +4,10 @@ header {
     padding: 16px 0;
 }
 
+nav {
+  display: none;
+}
+
 .logo {
     width: 248px;
     height: auto;
@@ -48,4 +52,31 @@ header a .icon {
 header a:hover {
     background-color: white;
     color: black;
+}
+
+@media screen and (min-width: 900px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header a {
+    display: none;
+    font-size: 16px;
+  }
+
+  .logo {
+    padding-top: 0;
+    width: 280px;
+  }
+
+  nav {
+    display: inline;
+  }
+
+  #a-desktop {
+    display: inline;
+  }
 }

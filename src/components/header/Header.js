@@ -15,6 +15,11 @@ function Header() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <header>
             <img className='logo' src={logo} alt='Ignacio Web Dev'/>
+            <nav>
+                <a id='a-desktop' href="#services">Servicio</a>
+                <a id='a-desktop' href="#about">Sobre Nosotros</a>
+                <a id='a-desktop' href="#contact">Contacto</a>
+            </nav>
             <a onClick={toggleMenu} href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
