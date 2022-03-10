@@ -26,3 +26,14 @@ a {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (min-width: 900px) {
+    ul {
+        justify-content: center;
+    }
+    
+    li {
+        padding: 0 100px;
+        padding-top: 20px;
+    }
+}
