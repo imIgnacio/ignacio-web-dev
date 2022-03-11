@@ -4,6 +4,15 @@ function Card(props) {
 
     const [saturate, setSaturate] = React.useState('0');
     const [shadow, setShadow] = React.useState('inset rgb(255, 255, 255) 10px -10px 0px 6px');
+    const [width, setWidth] = React.useState(window.innerWidth);
+    
+    React.useEffect(() => {
+        if(width <= 900){
+            setSaturate(1);
+            setShadow('');
+        }
+        return;
+    },[width]);
 
     const styles = {
         div: {
